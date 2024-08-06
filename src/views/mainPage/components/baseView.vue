@@ -1,7 +1,7 @@
 <template>
   <div class="background">
     <p style="
-      margin-top: 25vh;
+      margin-top: 20vh;
     ">
       <normal>目前您的小钱包存款为</normal>
     </p>
