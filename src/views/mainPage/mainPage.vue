@@ -57,12 +57,13 @@ const isOpen = ref(false);
   }
 
   .menu {
+    color: var(--color-background);
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: var(--color-success);
     z-index: 9;
   }
 }
