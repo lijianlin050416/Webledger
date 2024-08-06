@@ -1,9 +1,4 @@
 :root {
-  overflow: hidden;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
   --color-base: #667BC6;
   --color-success: #6C946F;
   --color-danger: #EF5A6F;
