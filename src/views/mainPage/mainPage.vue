@@ -2,7 +2,7 @@
   <div class="background">
     <transition>
       <div class="menu" v-show="isOpen">
-      <p>qwerr</p>
+      <p>qwer</p>
       <p>qwer</p>
       <p>qwer</p>
       <p>qwer</p>
