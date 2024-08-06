@@ -37,7 +37,6 @@
         </div>
       </template>
     </el-dialog>
-    <button @click="console.log(moneyType.eatAndDrink)">666</button>
   </div>
 </template>
 
