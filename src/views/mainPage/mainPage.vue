@@ -16,6 +16,7 @@
       :size="50"
       @click="isOpen = !isOpen;"
       class="iconButton"
+      :style="{ color: isOpen ? 'var(--color-background)' : 'var(--color-font)' }"
     >
       <Menu />
     </el-icon>
