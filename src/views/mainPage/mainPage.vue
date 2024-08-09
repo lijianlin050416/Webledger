@@ -22,6 +22,16 @@
             </div>
           </template>
         </el-dialog>
+        <el-dialog v-model="forgetVisible" title="忘记密码" width="300" :align-center="true">
+          <template #footer>
+            <div class="dialog-footer">
+              <el-button @click="forgetVisible = false">取消</el-button>
+              <el-button type="primary" @click="" color="var(--color-base)">
+                确认
+              </el-button>
+            </div>
+          </template>
+        </el-dialog>
         <div class="block" v-if="isLogin">
           <strong style="font-size: 35px;">
             @用户名123
@@ -35,6 +45,7 @@
           <strong style="font-size: 35px;">
             请先登录或注册
           </strong>
+          <p @click="forgetVisible = true">忘记密码</p>
           <p @click="loginVisible = true">登录</p>
           <p @click="signupVisible = true">注册</p>
         </div>
@@ -59,6 +70,7 @@ const isOpen = ref(false)
 const isLogin = ref(true)
 const loginVisible = ref(false)
 const signupVisible = ref(false)
+const forgetVisible = ref(false)
 
 </script>
 
