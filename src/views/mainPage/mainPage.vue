@@ -2,22 +2,11 @@
   <div class="background">
     <transition>
       <div class="menu" v-show="isOpen">
-      <p>qwer</p>
-      <p>qwer</p>
-      <p>qwer</p>
-      <p>qwer</p>
-      <p>qwer</p>
-      <p>qwer</p>
-      <p>qwer</p>
-      <p>qwer</p>
-    </div>
+
+      </div>
     </transition>
-    <el-icon
-      :size="50"
-      @click="isOpen = !isOpen;"
-      class="iconButton"
-      :style="{ color: isOpen ? 'var(--color-background)' : 'var(--color-font)' }"
-    >
+    <el-icon :size="50" @click="isOpen = !isOpen;" class="iconButton"
+      :style="{ color: isOpen ? 'var(--color-background)' : 'var(--color-font)' }">
       <Menu />
     </el-icon>
     <baseView></baseView>
@@ -42,7 +31,6 @@ const isOpen = ref(false);
   height: 100vh;
 
   .iconButton {
-    /* border: 3px solid black; */
     margin: 20px 0 0 20px;
     z-index: 10;
   }
